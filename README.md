@@ -1,5 +1,7 @@
 # YTStories
 
+![YTStories Logo](asset/card.png)
+
 YTStories is a small online tool that allows you to create images to use as Instagram stories from a YouTube link you want to share. This tool simplifies sharing YouTube videos as stories on social media by providing a quick and effective way to create engaging images.
 
 ## Features
