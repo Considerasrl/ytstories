@@ -27,13 +27,11 @@ If you want to run YTStories locally, follow these steps:
 
    ```bash
    git clone https://github.com/your_username/YTStories.git
-   ```
    
 2. Navigate to the project directory:
 
-  ```bash
-  cd YTStories
-  ```
+   ```bash
+   cd YTStories
   
 3. Open the index.html file in your preferred browser.
 
@@ -43,23 +41,21 @@ We welcome contributions to the YTStories repository. If you'd like to contribut
 1. Fork this repository.
 2. Create a branch for your modification:
 
-  ```bash
-  git checkout -b add-new-feature
-  ```
+   ```bash
+   git checkout -b add-new-feature
 
 3. Make your changes and commit your changes:
 
-  ```bash
-  git commit -m "Add new feature"
-  ```
+   ```bash
+   git commit -m "Add new feature"
 
 4. Push your branch to the remote repository:
 
-  ```bash
-  git push origin add-new-feature
-  ```
+   ```bash
+   git push origin add-new-feature
 
 5. Open a pull request on the original repository and describe your changes.
 
 ## License
-This project is licensed under the MIT License.
+
+This project is distributed under the [GNU General Public License v3.0](LICENSE).
