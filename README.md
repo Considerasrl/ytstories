@@ -1,4 +1,4 @@
-# YTStories
+# YTStories - by Considera SRL
 
 ![YTStories Logo](asset/card.png)
 
