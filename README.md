@@ -33,7 +33,7 @@ If you want to run YTStories locally, follow these steps:
    ```bash
    cd YTStories
   
-3. Start a Local PHO Development environment with this command
+3. Start a Local PHP Development environment with this command
 
    ```bash
    php -S localhost:8080      # make sure to have PHP installed on your machine
