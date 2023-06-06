@@ -209,13 +209,6 @@ function generateImage() {
     inputSect.classList.toggle('hide');
     if (fill_canvas(image, title) !== "error") {
         outputSect.classList.toggle('hide');
-        $.post(
-            "/considera_analytics/save_request.php",
-            {
-                videoID: videoID,
-                bg_color: color,
-            }
-        )
     } else {
         inputSect.classList.toggle('hide');
     }
