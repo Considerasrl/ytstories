@@ -21,6 +21,8 @@ YTStories is a small online tool that allows you to create images to use as Inst
 5. Add text or stickers to the image to make it more engaging.
 6. Share the image as a story on Instagram or other social media platforms.
 
+![DEMO](asset/output.gif)
+
 ## Local Installation
 
 If you want to run YTStories locally, follow these steps:
