@@ -1,11 +1,8 @@
-/* Roboto font*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-/* YouTube Sans font*/
-@import url('https://fonts.cdnfonts.com/css/youtube-sans');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/youtube-sans");
 
 body {
-  font-family: 'YouTube Sans', 'Roboto', sans-serif;
+  font-family: "YouTube Sans", "Roboto", sans-serif;
 
   display: flex;
   flex-direction: column;
@@ -19,8 +16,8 @@ body {
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
+
 footer {
-  /* position: absolute; */
   bottom: 0;
   font-size: 11px;
   flex-shrink: 0;
@@ -31,6 +28,7 @@ a:active {
   color: white;
   text-decoration: none;
 }
+
 a:hover {
   color: #0d6efd;
 }
@@ -86,6 +84,47 @@ label {
 .hide {
   display: none !important;
   transition: all 0.2s ease-in-out;
+}
+
+.btn-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.alert-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.alert-box {
+  background: #232323;
+  color: white;
+  padding: 24px 28px;
+  border-radius: 12px;
+  max-width: 480px;
+  width: 90%;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}
+
+.alert-box h3 {
+  margin: 0 0 8px;
+}
+
+.alert-box pre {
+  background: #111;
+  color: #ddd;
+  padding: 8px 10px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.alert-box button {
+  margin-top: 16px;
 }
 
 @media only screen and (max-width: 768px) {
