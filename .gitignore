@@ -55,3 +55,5 @@ Thumbs.db
 # Node version managers
 .nvmrc
 .node-version
+.vercel
+.env*.local
